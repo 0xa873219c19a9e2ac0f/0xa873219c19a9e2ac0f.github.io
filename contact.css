@@ -242,28 +242,31 @@
   justify-content: flex-start;
 }
 .contact-container2 {
-  width: 408px;
+  flex: 0 0 auto;
+  width: 200px;
   height: auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
 .contact-container3 {
-  width: auto;
-  height: 146px;
+  flex: 0 0 auto;
+  width: 200px;
+  height: auto;
   display: flex;
   align-items: flex-start;
-  justify-content: flex-start;
+  flex-direction: column;
 }
 .contact-container4 {
+  flex: 0 0 auto;
   width: 200px;
-  height: 139px;
+  height: auto;
   display: flex;
   align-items: flex-start;
   flex-direction: column;
 }
 .contact-textinput {
-  width: 200px;
+  width: 408px;
   height: 45px;
   padding-left: var(--dl-space-space-halfunit);
   border-radius: var(--dl-radius-radius-radius2);
@@ -282,16 +285,9 @@
   padding-left: var(--dl-space-space-halfunit);
   border-radius: var(--dl-radius-radius-radius2);
 }
-.contact-textinput3 {
-  width: 200px;
-  height: 45px;
-  margin-left: 8px;
-  padding-left: var(--dl-space-space-halfunit);
-  border-radius: var(--dl-radius-radius-radius2);
-}
 .contact-textarea {
   width: 408px;
-  height: 176px;
+  height: 175px;
   margin-top: 8px;
   border-width: 1px;
   border-radius: var(--dl-radius-radius-radius2);
@@ -299,11 +295,12 @@
 }
 .contact-button {
   color: rgb(255, 255, 255);
-  width: 100%;
+  width: 408px;
   align-self: center;
   margin-top: 6px;
   text-align: center;
   transition: 0.3s;
+  margin-left: 208px;
   border-width: 0px;
   border-radius: var(--dl-radius-radius-radius2);
   background-color: rgb(76, 81, 255);
