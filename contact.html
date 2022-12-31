@@ -176,35 +176,44 @@
           </div>
         </div>
         <div class="contact-container1">
-          <form class="contact-form" action="https://formsubmit.co/5d47f64f7a13fd2279ade72fc276882f" method="POST">
+          <form class="contact-form">
             <div class="contact-container2">
               <div class="contact-container3">
                 <div class="contact-container4">
                   <input
+                    name="name"
                     type="text"
-                    name="first name"
-                    required=""
-                    placeholder="First Name"
+                    required
+                    placeholder="Name"
                     class="contact-textinput input"
                   />
                   <input
-                    type="email"
                     name="email"
-                    required=""
+                    type="text"
+                    required
                     placeholder="Email"
                     class="contact-textinput1 input"
                   />
-                  <input type="text" required="" placeholder="Subject" class="contact-textinput2 input"/>
+                  <input
+                    name="subject"
+                    type="text"
+                    required
+                    placeholder="Subject"
+                    class="contact-textinput2 input"
+                  />
                 </div>
-                <input type="text" name="last name" required="" placeholder="Last Name" class="contact-textinput3 input"/>
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  class="contact-textarea textarea"
+                ></textarea>
+                <button type="submit" class="contact-button button">
+                  <span>
+                    <span>Send Message</span>
+                    <br />
+                  </span>
+                </button>
               </div>
-              <textarea name="message" placeholder="Message" class="contact-textarea textarea"></textarea>
-              <button type="submit" class="contact-button button">
-                <span>
-                  <span>Send Message</span>
-                  <br />
-                </span>
-              </button>
             </div>
           </form>
           <h1 class="contact-text18">Contact/Purchase Form</h1>
